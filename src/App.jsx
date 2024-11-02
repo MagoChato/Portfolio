@@ -5,6 +5,7 @@ import AboutMe from "./components/aboutMe";
 import Skills from "./components/skills";
 import Projects from "./components/projects";
 import Footer from "./components/footer";
+import Aside from "./components/aside";
 
 const AppContainer = styled.div`
   max-width: 100vw;
@@ -32,6 +33,7 @@ function App() {
       <div className="headerContainer">
         <Header />
       </div>
+      <Aside />
       <main>
         <Banner />
         <AboutMe />

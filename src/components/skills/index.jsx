@@ -11,9 +11,8 @@ const SkillSection = styled.section`
   display: flex;
   width: 60vw;
   padding: 4em;
-  justify-content: center;
+  justify-content: space-between;
   color: var(--cor-de-borda);
-  gap: 20em;
   margin: 1em;
   background-color: var(--cor-de-fundo2);
   border: 2px solid var(--cor-de-borda);

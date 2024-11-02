@@ -6,7 +6,7 @@ const ProjectsSection = styled.section`
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  width: 60vw;
+  width: 70vw;
   border: 4px solid var(--cor-de-borda);
   border-radius: 49px 49px 0 0;
   border-bottom: none;
@@ -112,16 +112,6 @@ function Projects() {
       <h3>Meus Projetos</h3>
       <div>
         <ul className="projetoContainer">
-          <li>
-            <h4 className="azul">Calculadora Nutricional</h4>
-            <ul>
-              <li>Biblioteca Alimentar</li>
-              <li>Ferramenta de Pesquisa</li>
-              <li>Simples e Prática</li>
-            </ul>
-            <img src={mago}></img>
-            <a href="">Interessado?</a>
-          </li>
           {projetos.map((projeto) => (
             <li key={projeto.titulo}>
               <h4 className="azul">{projeto.titulo}</h4>

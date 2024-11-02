@@ -13,7 +13,7 @@ const FooterComponent = styled.footer`
   }
   .email {
     position: absolute;
-    right: 10em;
+    right: 11em;
     a {
       text-decoration: none;
       color: var(--cor-primaria);
