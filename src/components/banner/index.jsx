@@ -80,7 +80,7 @@ function Banner() {
         </h1>
         <p>
           <span className="sublinhado">
-            Seja bem vindo ao meu Portifólio App!
+            Seja bem vindo ao meu Portfólio App!
           </span>
         </p>
       </div>
